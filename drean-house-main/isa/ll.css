@@ -1,0 +1,270 @@
+
+.p-3{
+    background: linear-gradient(to bottom, #ff748e, rgba(238, 238, 238, 0));
+    height: 130px;
+}
+.sub-container{
+    background-color: #ff758f ;
+}
+
+.nav-link{
+    font-size: 20px;
+  
+}
+#i2{
+    width: 20%;
+    height: 30%;
+}
+#i1{
+    margin-right: 5px;
+    width: 85px;
+    height: 85px;
+}
+#offcanvasNavbar{
+    padding: 5px;
+    padding-left: 40px;
+    margin-top: 117px;
+    background:linear-gradient(to top, #ff748e, #ff748e7a, rgba(238, 238, 238, 0));
+    height: 500px;
+    border: none;
+}
+#lg{
+    color:rgb(255, 255, 255);
+    font-size: 13px;
+    margin-left: -15px;
+    margin-top: -12px;
+}
+#lg:hover{
+    color: blue;
+}
+#lot{
+    color:rgb(255, 255, 255);
+    font-size: 13px;
+    margin-left: 75px;
+    margin-top: -35px;
+}
+#lot:hover{
+    color:blue;
+}
+#user{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    margin-left: -16px;
+}
+#user:hover{
+    color: blue;
+}
+
+#op{
+    color: rgb(255, 255, 255);
+}
+#op:hover{
+    color: blue;
+}
+#naveg{
+    display: grid;
+    width: 600px;
+    margin: auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.title{
+    color: black;
+    text-align: center;
+    font-weight: 18rem;
+    padding-top: 2rem;
+}
+h2, a{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Carousel{
+    width: 100%;
+}
+
+.Carousel1{
+    width: 100%;
+}
+
+.Carousel h2{
+    font-size: 26px;
+    line-height: 38px;
+    padding-bottom: 24px;
+    opacity: .9;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.slick-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 430px;
+    padding: 30px 30px 20px 30px;
+    margin: 0;
+    max-width: 94vw;
+    overflow: hidden;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+.slick div{
+    width: 223px;
+    height: 430px;
+    overflow: hidden;
+  
+    margin: 10px;
+    text-align: center;
+    transition: all 0.15s;
+    
+}
+
+.slick div:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+div .descripción{
+    margin: auto;
+    border: 1px;
+}
+
+
+.slick div img{
+    margin: auto;
+    width: 230px;
+    height: 330px;
+}
+
+.slick div h4{
+    font-weight: 600;
+    color: #ff4800;
+    margin: 0.5rem;
+}
+
+.slick div a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+}
+
+.slick-arrow{
+    border-radius: 30px;
+    position: absolute;
+    z-index: 4;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    border: 0;
+    cursor: pointer;
+}
+.slick-arrow:focus{
+    outline: 0;
+}
+.slick-arrow svg{
+    width: 12px;
+    height: 100%;
+    color: rgba(0,0,0,.7);
+}
+.slick-prev{
+    left: 10px;
+}
+.slick-next{
+    right: 0px;
+}
+
+.vermas .boton{
+    display: block;
+    margin: 60px auto;
+    transition: all 0.2s linear;
+}
+
+
+
+.boton:hover{
+    background: #dc040c;
+    color: white;
+}
+
+#mas{
+    text-decoration: none;
+}
+
+
+/* CSS de OFERTAS*/
+
+
+/*Pie de página */
+
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 12px;
+    font-size: 14px;
+}
+.redessociales{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+}
+.redessociales li{
+    margin: 0 10px;
+}
+.redessociales a{
+    text-decoration: none;
+    color: #fff;
+}
+.redessociales a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.redessociales a:hover i{
+    color: darkblue;
+}
+
+.footer-bottom{
+    background: linear-gradient(to top, #ff748e, rgba(238, 238, 238, 0));
+    width: 100%;
+    padding: 3px 0;
+    text-align: left;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: lowercase;
+    opacity: .4;
+    font-weight: 100;
+}
+/*Pie de página */
