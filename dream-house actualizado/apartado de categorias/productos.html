@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <title>catalogo de muebles</title> 
+</head>
+<header class="p-3">
+    <div>
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabelledby">
+                            <div class="">
+                                <div class="d-flex flex-column flex-shrink-0 text-bg-" style="width: 280px;">
+                                   
+                                    <ul class="nav nav-pills flex-column mb-auto">
+                                        <li class="nav-item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                                              </svg>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="../Usuario/user.html" id="user">Usuario</a>
+                                            <a class="nav-link" href="../login/login.html" id="lg">iniciar sesion</a>
+                                            <a class="nav-link" href="#" id="lot">logout</a>
+                                        </li>
+                                        <li class="nav-item" id="naveg">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
+                                                <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z"/>
+                                              </svg>
+                                            <a class="nav-link" href="" id="op">Categorias</a>
+                                            
+                                            <a class="nav-link" href="" id="op">Favoritos</a>
+                                            
+                                            <a class="nav-link" href="" id="op">Compras</a>
+                                            
+                                            <a class="nav-link" href="../TIENDA/tienda/tienda.html" id="op">Nosotros</a>
+
+
+                                        </li>
+                                    </ul>
+                                </div>
+                        
+                        </div>
+                    </div>
+                </nav>
+                 <img src="../isa/logo1.png" id="i1">
+                <ul class="nav col-12 col-lg-auto justify-content-center me-lg-auto mb-2 mb-md-0">
+                    <li><a href="#" class="nav-link px-2 text-secondary">DREAM HOUSE</a></li>
+                </ul>
+              
+                <nav>
+                    <div class="container-fluid">
+                      <a class="navbar-brand"></a>
+                      <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="buscar" aria-label="buscar">
+                        <button class="btn outline-success">
+                         <img class="lupa" src="../isa/lupa.png" width="25px">
+                        </button>
+                        <button class="btn outline-success">
+                            <img class="carrito" src="../carrito.png" width="25px">
+                        </button>
+                       </form>
+                    </div>
+                  </nav>
+</header>
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item"onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="sofa.png" alt="">
+                        <p class="descripcion">SOFA BLANCO</p>
+                        <span class="precio">S/2,800</span>
+                    </div>
+                </div>
+                <div class="item"onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="sofa negro.png" alt="">
+                        <p class="descripcion">SOFA NEGRO</p>
+                        <span class="precio">S/3,000</span>
+                    </div>
+                </div>
+                <div class="item"onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="sofa color agua marina.png" alt="">
+                        <p class="descripcion">SOFA AGUA MARINA</p>
+                        <span class="precio">S/3,500</span>
+                    </div>
+                </div>      
+            <div class="item"onclick="cargar(this)">
+                <div class="contenedor-foto">
+                    <img src="ropero negro.png" alt="">
+                    <p class="descripcion">ROPERO NEGRO</p>
+                    <span class="precio">S/1,000</span>
+                   </div> 
+                </div>
+            </div>
+            <div class="fila">
+                 <div class="item"onclick="cargar(this)">
+                     <div class="contenedor-foto">
+                         <img src="ropero blanco.png" alt="">
+                         <p class="descripcion">ROPERO BLANCO</p>
+                         <span class="precio">S/700</span>
+                        </div>
+                    </div>
+                    <div class="item"onclick="cargar(this)">
+                      <div class="contenedor-foto">
+                          <img src="ropero naranja.png" alt="">
+                          <p class="descripcion">ROPERO NARANJA</p>
+                          <span class="precio">S/800</span>
+                        </div>
+                    </div> 
+                    <div class="item"onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                           <img src="cama verde.png" alt="">
+                           <p class="descripcion">CAMA VERDE</p>
+                           <span class="precio">S/1,500</span>
+                        </div>
+                    </div>
+                    <div class="item"onclick="cargar(this)">
+                        <div class="contenedor-foto">
+                           <img src="Cama-cajonera naranja.png" alt="">
+                           <p class="descripcion">CAMA CAJONERA NARANJA</p>
+                           <span class="precio">S/3,500</span>
+                        </div> 
+                    </div>
+                </div>
+                           <div class="fila">
+                            <div class="item"onclick="cargar(this)">
+                                <div class="contenedor-foto">
+                                    <img src="cama azul.png" alt="">
+                                    <p class="descripcion">CAMA AZUL</p>
+                                    <span class="precio">S/1,800</span>
+                                </div>
+                            </div>
+                            <div class="item"onclick="cargar(this)">
+                                <div class="contenedor-foto">
+                                    <img src="mesa blanca.jpg" alt="">
+                                    <p class="descripcion">JUEGO DE MESA CON 4 SILLAS</p>
+                                    <span class="precio">S/1,900</span>
+                                </div>
+                            </div>
+                            <div class="item"onclick="cargar(this)">
+                                <div class="contenedor-foto">
+                                    <img src="mesa marron.jpg" alt="">
+                                    <p class="descripcion">JUEGO DE MESA MARRON CON 6 SILLAS</p>
+                                    <span class="precio">S/1,099</span>
+                                </div>
+                            </div>      
+                        <div class="item"onclick="cargar(this)">
+                            <div class="contenedor-foto">
+                                <img src="mesa.jpg" alt="">
+                                <p class="descripcion">JUEGO DE MESA CON 6 SILLAS</p>
+                                <span class="precio">S/1,000</span>
+                            </div> 
+                        </div>
+                    </div>
+                               <div class="fila">
+                                <div class="item"onclick="cargar(this)">
+                                    <div class="contenedor-foto">
+                                        <img src="mesa de noche blanca.png.webp" alt="">
+                                        <p class="descripcion">MESA DE NOCHE BLANCA</p>
+                                        <span class="precio">S/200</span>
+                                    </div>
+                                </div>
+                                <div class="item"onclick="cargar(this)">
+                                    <div class="contenedor-foto">
+                                        <img src="mesa de noche.png" alt="">
+                                        <p class="descripcion">MESA DE NOCHE</p>
+                                        <span class="precio">S/770</span>
+                                    </div>
+                                </div>
+                                <div class="item"onclick="cargar(this)">
+                                    <div class="contenedor-foto">
+                                        <img src="mesa de noche marron.jpg" alt="">
+                                        <p class="descripcion">MESSA DE NOCHE MARRON</p>
+                                        <span class="precio">S/220</span>
+                                    </div>
+                                </div>      
+                            <div class="item"onclick="cargar(this)">
+                                <div class="contenedor-foto">
+                                    <img src="mesa de noche negra.png" alt="">
+                                    <p class="descripcion">MESSA DE NOCHE NEGRA</p>
+                                    <span class="precio">S/399</span>
+                                </div> 
+                            </div>
+                        </div>
+                                   <div class="fila">
+                                    <div class="item"onclick="cargar(this)">
+                                        <div class="contenedor-foto">
+                                            <img src="Atornillador 12V Mp + Set 50 piezas Black & Decker.webp" alt="">
+                                            <p class="descripcion">Atornillador 12V Mp + Set 50 piezas Black & Decker</p>
+                                            <span class="precio">S/150</span>
+                                        </div>
+                                    </div>
+                                    <div class="item"onclick="cargar(this)">
+                                        <div class="contenedor-foto">
+                                            <img src="Taladro percutor 850w Gsb 16re + Set X-line 34 Bosch.webp" alt="">
+                                            <p class="descripcion">Taladro percutor 850w Gsb 16re + Set X-line 34 Bosch</p>
+                                            <span class="precio">S/290</span>
+                                        </div>
+                                    </div>
+                                    <div class="item"onclick="cargar(this)">
+                                        <div class="contenedor-foto">
+                                            <img src="taladro + amoladora.webp" alt="">
+                                            <p class="descripcion">Taladro + amoladora</p>
+                                            <span class="precio">S/178</span>
+                                        </div>
+                                    </div>      
+                                <div class="item"onclick="cargar(this)">
+                                    <div class="contenedor-foto">
+                                        <img src="escalera de metal de 3 escalones.webp" alt="">
+                                        <p class="descripcion">ESCALERA DE METAL 3 ESCALONES</p>
+                                        <span class="precio">S/60</span>
+                       </div> 
+                   </div>
+              </div>
+        </div>
+        
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+         <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="sofa.png" alt="" id="img">
+                <h2 id="modelo">SOFA BLANCO</h2>
+                <p id="descripcion">MEDIANO Y COMODO</p>
+
+                <span class="precio" id="precio">S/2,800</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for=""></label>
+                    </div>
+                    <button>AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+        </div>
+    </section>
+<h1>holaaa</h1>
+    <footer>
+        <div class="footer-content">
+            <h3>DREAM-HOUSE</h3>
+            <p>Ven y busca los mejores precios en nuestra tienda</p>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2024, Dream-House</p>
+        </div>
+    </footer>
+    <script src="productos.js"></script>
+    <script src="../Javascript/index.js"></script>
+</body>
+</html>

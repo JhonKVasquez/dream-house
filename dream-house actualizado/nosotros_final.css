@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.titulo{
+    text-align: start;
+    font-size: 30px;
+    padding: 20px;
+}
+body{
+    font-family: "Inknut Antiqua";
+    margin:0;
+    padding: 0;
+}
+.p-3{
+    background: linear-gradient(to bottom, #ff748e, rgba(238, 238, 238, 0));
+    height: 130px;
+}
+.sub-container{
+    background-color: #ff758f ;
+}
+#carrito{
+    fill: white;
+}
+#lupa{
+    fill: white;
+}
+.nav-link{
+    font-size: 20px;
+    width: 10px;
+}
+#i2{
+    width: 20%;
+    height: 30%;
+}
+#i1{
+    margin-right: 50px;
+    width: 85px;
+    height: 85px;
+}
+#offcanvasNavbar{
+    padding: 5px;
+    padding-left: 40px;
+    margin-top: 117px;
+    background:linear-gradient(to top, #ff748e, #ff748e7a, rgba(238, 238, 238, 0));
+    height: 500px;
+    border: none;
+}
+#lg{
+    color:rgb(0, 0, 0);
+    font-size: 13px;
+    margin-left: -15px;
+    margin-top: -12px;
+}
+#lg:hover{
+    color: rgb(255, 255, 255);
+}
+#lot{
+    color:rgb(0, 0, 0);
+    font-size: 13px;
+    margin-left: 75px;
+    margin-top: -35px;
+}
+#lot:hover{
+    color:rgb(255, 255, 255);
+}
+#user{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: -16px;
+}
+#user:hover{
+    color: rgb(255, 255, 255);
+}
+.nav-item svg:hover{
+    color: white;
+}
+
+#op{
+    color: rgb(0, 0, 0);
+}
+#op:hover{
+    color: rgb(250, 250, 250);
+}
+#naveg{
+    display: grid;
+    width: 600px;
+    margin: auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.menu{
+    background-color: #f8f9fa;
+    width: 250px;
+    padding: 20px;
+}
+.menu-item{
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+}
+.menu-item svg{
+    width: 30px;
+    height: 20px;
+    margin-right: 10px;
+}
+.menu-item a{
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+.menu-item a:hover{
+    color:  #ffffff;
+}
+
+.menu-item svg:hover{
+    color: white;
+}
+
+#naveg{
+    display: grid;
+    width: 600px;
+    margin: auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.title{
+    color: black;
+    text-align: center;
+    font-weight: 18rem;
+    padding-top: 2rem;
+}
+h2, a{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.img1{
+    height: 100%;
+    width: 100%;
+    margin: 0, 5, 0 , 5px;
+    padding: 30px;
+    align-content: center;
+    justify-items: right;
+    align-items: right;
+    
+}
+
+.box{
+    display: flex;
+    width: 120%;
+    height: 120%;
+    padding: 0, 5, 0, 5px;
+    align-items: flex-end;
+    justify-content: right;
+    align-content: flex;
+
+
+}
+.contenedor{
+    max-width: 1250px;
+    margin: 25px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedor_tarjeta{
+    margin: 20px;
+    padding: 10px;
+    display: block;
+}
+
+.contenedor_tarjeta a{
+    display: block;
+}
+
+.contenedor_tarjeta:hover figure{
+    -webkit-transform: perspective(600px) rotateY(180deg);
+    -ms-transform: perspective(600px) rotateY(180deg);
+    -o-transform: perspective(600px) rotateY(180deg);
+    transform: perspective(600px) rotateY(180deg);
+    box-shadow: 19px 25px 14px 3px rgba(0,0,0,0.37);
+}
+
+.contenedor_tarjeta:hover figure img{
+    filter: blur(2px);
+}
+
+figure{
+    width: 435px;
+    height: 370px;
+    margin: 20px;
+    position: relative;
+    transition: all ease .5s;
+    transform-style: preserve-3d;
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 19px 25px 14px 3px rgba(0,0,0,0.37);
+}
+
+figure .frontal,
+figure .trasera{
+    width: 120%;
+    height: 120%;
+    border-radius: 5px;
+    transition: all ease .5s;
+}
+
+figure .frontal{
+    display: block;
+    
+}
+
+figure .trasera{
+    position: absolute;
+    top: 0;
+    padding: 30px;
+    color: #d2f0fd;
+    transform: perspective(600px) rotateY(180deg);
+    backface-visibility: hidden;
+    overflow: auto;
+
+    background: rgba(185,42,14,1);
+    background: -moz-linear-gradient(left, rgba(185,42,14,1) 0%, rgba(161,32,12,0.95) 51%, rgba(162,36,16,0.93) 71%, rgba(200,51,25,0.92) 76%, rgba(160,37,24,0.9) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(185,42,14,1)), color-stop(51%, rgba(161,32,12,0.95)), color-stop(71%, rgba(162,36,16,0.93)), color-stop(76%, rgba(200,51,25,0.92)), color-stop(100%, rgba(160,37,24,0.9)));
+    background: -webkit-linear-gradient(left, rgba(185,42,14,1) 0%, rgba(161,32,12,0.95) 51%, rgba(162,36,16,0.93) 71%, rgba(200,51,25,0.92) 76%, rgba(160,37,24,0.9) 100%);
+    background: -o-linear-gradient(left, rgba(185,42,14,1) 0%, rgba(161,32,12,0.95) 51%, rgba(162,36,16,0.93) 71%, rgba(200,51,25,0.92) 76%, rgba(160,37,24,0.9) 100%);
+    background: -ms-linear-gradient(left, rgba(185,42,14,1) 0%, rgba(161,32,12,0.95) 51%, rgba(162,36,16,0.93) 71%, rgba(200,51,25,0.92) 76%, rgba(160,37,24,0.9) 100%);
+    background: linear-gradient(to right, rgba(185,42,14,1) 0%, rgba(161,32,12,0.95) 51%, rgba(162,36,16,0.93) 71%, rgba(200,51,25,0.92) 76%, rgba(160,37,24,0.9) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b92a0e', endColorstr='#a02518', GradientType=1 );
+}
+
+figure .trasera .titulo{
+    color: white;
+    font-weight: normal;
+    margin-bottom: 30px;
+    font-family: 'Inknut Antiqua', sans-serif;
+    font-size: 24px;
+}
+
+figure .trasera hr{
+    height: 3px;
+    background: white;
+    border: none;
+    margin-bottom: 10px;
+    opacity: .5s;
+}
+
+figure .trasera p{
+    color: white;
+    font-family: 'Inknut Antiqua', sans-serif;
+    line-height: 22px;
+    font-size: 22px;
+}

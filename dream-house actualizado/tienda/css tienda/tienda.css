@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: #d7f1f5;
+    font-family: 'Open Sans', san serif;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #4C494B;
+    border-radius: 10px;
+}
+
+/* Icono Close*/
+
+.close{
+    margin: 0;
+}
+
+.close .iconclose img{
+    width: 50px;
+    margin-left: 1200px;
+    position: fixed;
+    top: 22px;
+    right: 32px;
+}
+/* Icono Close */
+
+
+
+/* Logo megaplaza*/
+
+.title .logo{
+    width: 500px;
+    margin-left: 400px;
+    padding-top: 35px;
+}
+
+
+
+
+
+
+/* CSS de Contenido de tienda */
+
+a{
+    text-decoration: none;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedor_tarjeta{
+    margin: 20px;
+    padding: 10px;
+    display: block;
+}
+
+.contenedor_tarjeta a{
+    display: block;
+}
+
+.contenedor_tarjeta:hover figure{
+    -webkit-transform: perspective(600px) rotateY(180deg);
+    -ms-transform: perspective(600px) rotateY(180deg);
+    -o-transform: perspective(600px) rotateY(180deg);
+    transform: perspective(600px) rotateY(180deg);
+    box-shadow: 19px 25px 14px 3px rgba(0,0,0,0.37);
+}
+
+.contenedor_tarjeta:hover figure img{
+    filter: blur(2px);
+}
+
+figure{
+    width: 395px;
+    height: 270px;
+    margin: 0;
+    position: relative;
+    transition: all ease .5s;
+    transform-style: preserve-3d;
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 19px 25px 14px 3px rgba(0,0,0,0.37);
+}
+
+figure .frontal,
+figure .trasera{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transition: all ease .5s;
+}
+
+figure .frontal{
+    display: block;
+    
+}
+
+figure .trasera{
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    color: #d2f0fd;
+    transform: perspective(600px) rotateY(180deg);
+    backface-visibility: hidden;
+    overflow: auto;
+
+    background: rgba(185,42,14,1);
+    background: -moz-linear-gradient(left, rgba(185,42,14,1) 0%, rgba(161,32,12,0.95) 51%, rgba(162,36,16,0.93) 71%, rgba(200,51,25,0.92) 76%, rgba(160,37,24,0.9) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(185,42,14,1)), color-stop(51%, rgba(161,32,12,0.95)), color-stop(71%, rgba(162,36,16,0.93)), color-stop(76%, rgba(200,51,25,0.92)), color-stop(100%, rgba(160,37,24,0.9)));
+    background: -webkit-linear-gradient(left, rgba(185,42,14,1) 0%, rgba(161,32,12,0.95) 51%, rgba(162,36,16,0.93) 71%, rgba(200,51,25,0.92) 76%, rgba(160,37,24,0.9) 100%);
+    background: -o-linear-gradient(left, rgba(185,42,14,1) 0%, rgba(161,32,12,0.95) 51%, rgba(162,36,16,0.93) 71%, rgba(200,51,25,0.92) 76%, rgba(160,37,24,0.9) 100%);
+    background: -ms-linear-gradient(left, rgba(185,42,14,1) 0%, rgba(161,32,12,0.95) 51%, rgba(162,36,16,0.93) 71%, rgba(200,51,25,0.92) 76%, rgba(160,37,24,0.9) 100%);
+    background: linear-gradient(to right, rgba(185,42,14,1) 0%, rgba(161,32,12,0.95) 51%, rgba(162,36,16,0.93) 71%, rgba(200,51,25,0.92) 76%, rgba(160,37,24,0.9) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b92a0e', endColorstr='#a02518', GradientType=1 );
+}
+
+figure .trasera .titulo{
+    color: white;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+figure .trasera hr{
+    height: 2px;
+    background: white;
+    border: none;
+    margin-bottom: 20px;
+    opacity: .5s;
+}
+
+figure .trasera p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+    font-size: 22px;
+}
+
+/* CSS de Contenido de tienda*/

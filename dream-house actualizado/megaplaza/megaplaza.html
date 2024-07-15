@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MegaPlaza</title>
+    <link rel="stylesheet" href="../CSS/ubicacioncines.css">
+</head>
+
+<body>
+    <!--Cabecera  -->
+
+    <div class="close">
+        <a href="../isa/index_final.html" class="iconclose">
+            <img class="closeicon" src="../images/close.png">
+        </a>
+    </div>
+
+    <!--Cabecera  -->
+
+
+    <!--Contenido de Lugar -->
+
+    <center>
+        <h1 class="titulo">Dream-House MegaPlaza</h1>
+    </center>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7805.400811806544!2d-77.0664134!3d-11.9952202!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce543477f8d9%3A0x9d64f6794789376b!2sMegaPlaza!5e0!3m2!1ses-419!2spe!4v1719239580992!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+        </div>
+    </div>
+
+    <!--Contenido de Lugar -->
+
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+
+                        <h1 class="h4">Déjanos tu comentario</h1>
+
+                        <form id="task-form">
+                            <div class="form-group">
+                                <input type="text" id="task-title" class="form-control" class="Task Title"
+                                    placeholder="Escribe aquí tu nombre" autofocus>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="task-description" rows="3" class="form-control"
+                                    placeholder="Aquí tu comentario"></textarea>
+                            </div>
+
+                            <button class="btn btn-primary" id="btn-task-form">
+                                Enviar
+                            </button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Tasks List -->
+            <div class="col-md-6" id="tasks-container"></div>
+        </div>
+    </div>
+   
+    <script src="../../../Javascript/ubicacioncines.js"></script>
+
+</body>
+
+</html>
