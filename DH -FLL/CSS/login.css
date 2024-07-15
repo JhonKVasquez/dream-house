@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inknut antiqua', sans-serif;
+}
+
+body{
+    
+    background-image: url(../login/images/fomdo.jpeg);
+    background-position: center;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login{
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(219, 235, 255, 0.178);
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+    color: #000000;
+    padding-top: 5px;
+}
+   
+.login h3{
+    color: blue;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: 'inknut antiqua';
+    text-decoration: underline;
+    line-height: 1em;
+}
+.inknut-antiqua-light {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 30px;
+    font-style: normal;
+}
+   
+.login button i{
+    display: flex;
+    position: absolute;
+    top: 22px; 
+    left:5px;
+}
+   
+.login button{
+    width: 100%;
+    margin: 15px 10px;
+    padding: 10px;
+    box-shadow: 0 0 0px 0 rgba(184, 227, 247, 0.637);
+    cursor: pointer;
+    position: relative;
+    box-shadow: 5px 5px 10px 5px ;
+}
+
+
+.login .cuenta{
+    font-family:"Inknut Antiqua", sans-serif;
+    background: transparent;
+    color: black;
+    border-radius: 1px;
+    font-size: 15px
+}
+
+
+@media only screen and (max-width: 200px){
+.container{
+    display: block;
+}
+}
